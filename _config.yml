@@ -27,8 +27,8 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -57,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 
@@ -69,8 +69,10 @@ scheme: Muse
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  github: https://github.com/heqingbao
+  twitter: https://twitter.com/heqingbao
+  weibo: http://weibo.com/2031839077
   #Others:
 
 # Social Icons
@@ -86,7 +88,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+avatar: /uploads/avatar.jpg
 
 
 # TOC in the Sidebar
@@ -138,7 +140,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -168,7 +170,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: qingbao
 
 # Disqus
 #disqus_shortname:
@@ -178,7 +180,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -186,7 +188,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-47060058-1
 
 
 # Make duoshuo show UA
