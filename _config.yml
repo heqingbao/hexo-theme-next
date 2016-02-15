@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2014
 
 
 
@@ -28,7 +28,7 @@ rss:
 menu:
   home: /
   categories: /categories
-  about: /about
+  #about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -58,7 +58,7 @@ menu_icons:
 
 # Schemes
 # scheme: Muse
-#scheme: Mist
+# scheme: Mist
 scheme: Pisces
 
 
@@ -70,16 +70,20 @@ scheme: Pisces
 
 # Social links
 social:
-  github: https://github.com/heqingbao
-  twitter: https://twitter.com/heqingbao
-  weibo: http://weibo.com/2031839077
+  Facebook: https://www.facebook.com/qingbao.ho
+  Twitter: https://twitter.com/heqingbao
+  Google+: https://plus.google.com/u/0/109854625733827599006
+  Weibo: http://weibo.com/2031839077
+  Github: https://github.com/heqingbao
   #Others:
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
+  Facebook: facebook
+  Google+: google-plus
+  Github: github
   Twitter: twitter
   Weibo: weibo
 
@@ -108,7 +112,7 @@ toc:
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
-  #position: right
+  # position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -220,7 +224,7 @@ leancloud_visitors:
 
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 54478559
 
 
 
